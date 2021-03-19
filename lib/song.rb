@@ -13,8 +13,8 @@ class Song
     @@all
   end
   
-  def new_by_filename
-    
+  def self.new_by_filename
+    song_info = file.chomp(".mp3").split
   end
   
 end
